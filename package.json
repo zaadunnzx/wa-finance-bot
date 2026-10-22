@@ -1,0 +1,25 @@
+{
+  "name": "wa-finance-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI Bot untuk pencatatan keuangan harian",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.23.0",
+    "@google/generative-ai": "^0.21.0",
+    "googleapis": "^144.0.0",
+    "dotenv": "^16.4.5",
+    "body-parser": "^1.20.2",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

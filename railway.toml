@@ -1,0 +1,10 @@
+# Railway deployment config
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node src/index.js"
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "on-failure"
+restartPolicyMaxRetries = 3
